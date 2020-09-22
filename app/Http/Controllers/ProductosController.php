@@ -33,7 +33,6 @@ class ProductosController extends Controller
     public function edit($id)
     {
         $producto = Productos::findOrFail($id);
-        //return compact('producto');
         return view('productos.edit', compact('producto'));
     }
 
