@@ -22,7 +22,7 @@
                     Contacto
                 </a>
                 <div class="dropdown-menu shadow" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="{{url('contacto')}}">Contacto</a>
+                    <a class="dropdown-item" href="{{url('/')}}">Contacto</a>
             </li>
         </div>
         <form action="{{ url('/producto') }}" method="POST" enctype="multipart/form-data" class="form-inline my-2 my-lg-0">
