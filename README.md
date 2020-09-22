@@ -57,6 +57,12 @@ _Ejecutar las migraciones para crear las tablas en la base de datos_
 ```
 php artisan migrate
 ```
+_Instalación de las dependencias Javascript_
+
+```
+npm install 
+npm run dev
+```
 
 ## Construido con 🛠️
 
