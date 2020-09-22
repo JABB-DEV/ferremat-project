@@ -9,8 +9,7 @@ class ProductosController extends Controller
 {
     public function index()
     {
-        //-
-        $data['productos'] = Productos::all();
+       $data['productos'] = Productos::all();
         return view('productos.index', $data);
     }
 
@@ -24,7 +23,6 @@ class ProductosController extends Controller
         $productos = request()-> except('_token');
         $field = $productos['producto'];
         $datos['productos'] = Productos::where('nombre', 'LIKE', "%$field%")->get();
-        //return $datos;
         return view('productos.index', $datos);
     }
 
