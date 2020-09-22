@@ -61,11 +61,11 @@ php artisan migrate
 ## Construido con 🛠️
 
 [Laragon FULL 4.0.16](https://laragon.org/download/index.html) - Entorno de desarrollo web para Laravel
-[Laravel](https://laravel.com/) - Framework de PHP
-[Composer](https://getcomposer.org/) - Manejador de paquetes para PHP
-[Bootstrap 4](https://getbootstrap.com/) - Framework CSS y JS para la creación de interfaces WEB
-[JQuery](https://jquery.com/) - Libreria de Javascript
-[FontAwesome](https://fontawesome.com/) - Framework de iconos vectoriales y css
+, [Laravel](https://laravel.com/) - Framework de PHP
+, [Composer](https://getcomposer.org/) - Manejador de paquetes para PHP
+, [Bootstrap 4](https://getbootstrap.com/) - Framework CSS y JS para la creación de interfaces WEB
+, [JQuery](https://jquery.com/) - Libreria de Javascript
+, [FontAwesome](https://fontawesome.com/) - Framework de iconos vectoriales y css
 
 ## Autores ✒️
 
