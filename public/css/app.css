@@ -1,0 +1,89 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  background: #009639 !important;
+  color: #fff !important;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  color: #ffcd00 !important;
+}
+
+.dropdown-menu {
+  background: #009639 !important;
+}
+
+.dropdown-item {
+  background: #009639 !important;
+  color: #fff;
+}
+
+.dropdown-item:hover {
+  color: #ffcd00 !important;
+}
+
+.footer-link {
+  color: #000;
+  font-size: 1rem;
+}
+
+.footer-link:hover {
+  text-decoration: none;
+}
+
+.hr-nav {
+  border: 0;
+  height: 10px;
+  background: #ffcd00;
+}
+
+.buscador {
+  height: 30px;
+  background: #fff;
+  color: #000;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+}
+
+.buscador-field {
+  border: none;
+  outline: none;
+}
+
+.buscador-link {
+  text-decoration: none;
+  color: #787676;
+  margin-left: 2px;
+  background: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.imagen-box {
+  position: relative;
+}
+
+.imagen-box p {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: rgba(7, 7, 7, 0.8);
+}
+
+.imagen-box a {
+  text-decoration: none;
+}
+
