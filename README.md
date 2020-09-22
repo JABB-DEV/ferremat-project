@@ -6,17 +6,17 @@ _Es una simple web desarrollada en laravel para un proyecto escolar_
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+_Instalar laragon FULL v.4.0.16_
 
 ```
- - * [Laragon FULL 4.0.16](https://laragon.org/download/index.html) - Entorno de desarrollo web para Laravel
+[Laragon FULL 4.0.16](https://laragon.org/download/index.html) - Entorno de desarrollo web para Laravel
 ```
 
 ### Instalación 🔧
 
 _Pasos para la instalación del proyecto_
 
-_Ubicado en la carpeta del proyecto instalar todas las dependencias php que ocupa el proyecto: _
+_Ubicado en la carpeta del proyecto instalar todas las dependencias php que ocupa el proyecto:_
 
 ```
 composer install
@@ -40,30 +40,32 @@ DB_USERNAME=root
 DB_PASSWORD=
 
 ```
-_Ejecutar el comando_
+Ejecutar el comando
 
 ```
 php artisan key:generate
 ```
 
-_Ir a mysql y crear una base de datos llamada 'ferremat' _
-````
+_Ir a mysql y crear una base de datos llamada 'ferremat'_
+
+```
 create database ferremat
 ```
 
 _Ejecutar las migraciones para crear las tablas en la base de datos_
-````
+
+```
 php artisan migrate
 ```
 
 ## Construido con 🛠️
 
-*  [Laragon FULL 4.0.16](https://laragon.org/download/index.html) - Entorno de desarrollo web para Laravel
-* [Laravel](https://laravel.com/) - Framework de PHP
-* [Composer](https://getcomposer.org/) - Manejador de paquetes para PHP
-* [Bootstrap 4](https://getbootstrap.com/) - Framework CSS y JS para la creación de interfaces WEB
-* [JQuery](https://jquery.com/) - Libreria de Javascript
-* [FontAwesome](https://fontawesome.com/) - Framework de iconos vectoriales y css
+[Laragon FULL 4.0.16](https://laragon.org/download/index.html) - Entorno de desarrollo web para Laravel
+[Laravel](https://laravel.com/) - Framework de PHP
+[Composer](https://getcomposer.org/) - Manejador de paquetes para PHP
+[Bootstrap 4](https://getbootstrap.com/) - Framework CSS y JS para la creación de interfaces WEB
+[JQuery](https://jquery.com/) - Libreria de Javascript
+[FontAwesome](https://fontawesome.com/) - Framework de iconos vectoriales y css
 
 ## Autores ✒️
 
