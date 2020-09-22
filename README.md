@@ -6,15 +6,17 @@ _Es una simple web desarrollada en laravel para un proyecto escolar_
 
 ### Pre-requisitos 📋
 
-_Instalar laragon FULL v.4.0.16_
+_Instalar laragon FULL v.4.0.16 y cambiar el php que trae por defecto a la versión 7.4.9_
 
 [Laragon FULL 4.0.16](https://laragon.org/download/index.html) - Entorno de desarrollo web para Laravel
+
+[PHP v.7.4.9](https://windows.php.net/download#php-7.4) - Lenguaje de programación usado para este proyecto
 
 ### Instalación 🔧
 
 _Pasos para la instalación del proyecto_
 
-_Ubicado en la carpeta del proyecto instalar todas las dependencias php que ocupa el proyecto:_
+_Ubicado en la carpeta del proyecto, instalar todas las dependencias php que ocupa el proyecto:_
 
 ```
 composer install
@@ -27,7 +29,7 @@ cp .env.example .env
 
 ```
 
-_y configurar los parámetros de la base de datos en el archivo .env_
+_Configurar los parámetros de la base de datos en el archivo .env_
 
 ```
 DB_CONNECTION=mysql
@@ -38,7 +40,7 @@ DB_USERNAME=root
 DB_PASSWORD=
 
 ```
-Ejecutar el comando
+_Ejecutar el comando_
 
 ```
 php artisan key:generate
@@ -69,4 +71,4 @@ npm run dev
 ## Autores ✒️
 
 * **José Alberto Barrueta** - *Desarrollor* - [JABB-DEV](https://github.com/JABB-DEV)
-* **Luis David Benítez** - *Desarrollor*
+* **Luis David Benítez** - *Desarrollador*
