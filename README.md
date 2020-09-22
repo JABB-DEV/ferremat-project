@@ -68,4 +68,5 @@ npm run dev
 
 ## Autores ✒️
 
-* **José Alberto Barrueta** - *Desarrollor de todo el sitio web* - [JABB-DEV](https://github.com/JABB-DEV)
+* **José Alberto Barrueta** - *Desarrollor* - [JABB-DEV](https://github.com/JABB-DEV)
+* **Luis David Benítez** - *Desarrollor*
