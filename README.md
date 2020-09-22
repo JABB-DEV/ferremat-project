@@ -8,9 +8,7 @@ _Es una simple web desarrollada en laravel para un proyecto escolar_
 
 _Instalar laragon FULL v.4.0.16_
 
-```
 [Laragon FULL 4.0.16](https://laragon.org/download/index.html) - Entorno de desarrollo web para Laravel
-```
 
 ### Instalación 🔧
 
