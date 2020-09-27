@@ -28,12 +28,12 @@
         </td>
         <td>
           @if($producto->existencia >= 1)
-          <a href="{{ url('/carrito/'.$producto->id.'') }}" class="btn btn-outline-warning" data-toggle="tooltip" title="Comprar producto {{$producto->nombre}}">Comprar <i class="fas fa-shopping-cart"></i></a>
-          <a href="{{ url('/producto/'.$producto->id.'/edit') }}" class="btn btn-outline-info" data-toggle="tooltip" title="Editar producto">Editar <i class="fas fa-edit"></i></a>
           <form action="{{ url('/producto/'.$producto->id) }}" method="POST" class="form-inline my-2 my-lg-0">
+            <a href="{{ url('/carrito/'.$producto->id.'') }}" class="btn btn-outline-warning ml-1 my-2 my-lg-0" data-toggle="tooltip" title="Comprar producto {{$producto->nombre}}">Comprar <i class="fas fa-shopping-cart"></i></a>
+            <a href="{{ url('/producto/'.$producto->id.'/edit') }}" class="btn btn-outline-info ml-1 my-2 my-lg-0" data-toggle="tooltip" title="Editar producto">Editar <i class="fas fa-edit"></i></a>
             {{csrf_field()}}
             {{method_field('DELETE')}}
-            <button class="btn btn-outline-danger mt-1" data-toggle="tooltip" title="Eliminar producto">Eliminar <i class="fas fa-edit"></i></button>
+            <button class="btn btn-outline-danger ml-1 my-2 my-lg-0" data-toggle="tooltip" title="Eliminar producto">Eliminar <i class="fas fa-edit"></i></button>
           </form>
           @else
           <i>Sin stock <a href="{{ url('/producto/'.$producto->id.'/edit') }} " data-toggle="tooltip" title="Agregar mas productos al stock">Agregar más</a> o </i>
